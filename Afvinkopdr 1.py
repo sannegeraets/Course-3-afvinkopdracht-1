@@ -32,7 +32,7 @@ def sfilter(seqq):
     return seq
 
 
-def create_codons(seq):
+def create_codons(seq): ## haha lel.
     start = seq.find("ATG")
     done = 0
     codons = []
