@@ -32,7 +32,7 @@ def sfilter(seqq): #sequence filter, checks if sequence is DNA
     return seq
 
 
-def create_codons(seq):
+def create_codons(seq): ## haha lel.
     start = seq.find("ATG")
     done = 0
     codons = []
