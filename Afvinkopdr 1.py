@@ -23,10 +23,10 @@ def sequentie(bestand):
     return seq[1]
 
 
-def sfilter(seqq):
+def sfilter(seqq): #sequence filter, checks if sequence is DNA
     seq1 = []
     for i in seqq:
-        if i == "A" or i == "C" or i == "G" or i == "T":
+        if i in ["A","T","G","C"]:
             seq1.append(i)
     seq = "".join(seq1)
     return seq
